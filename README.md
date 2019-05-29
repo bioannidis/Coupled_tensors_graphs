@@ -6,10 +6,12 @@ Georgios B. Giannakis, Fellow, IEEE, and Nicholas D. Sidiropoulos, Fellow, IEEE
 
 Paper link: https://arxiv.org/abs/1809.08353 
 
-CGTF_wrapper file:
+CGTF_wrapper.m:
 Implements the alternating direction method of multipliers found in section 3.1 of the aforementioned paper
+CGTF_example.m:
+Contains an example on how to process the Digg.mat, generate the training data and call the CGTF_wrapper.m 
 
-Digg.mat file:
+Digg.mat:
 The Digg dataset includes stories, and users along with their time-stamped actions with 
 respect to stories, as well as the social network of users. In addition, a set of keywords
 is assigned to each story. After discretizing the time into 20 time intervals over
